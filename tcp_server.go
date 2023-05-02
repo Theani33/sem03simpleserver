@@ -18,7 +18,7 @@ func main() {
 
 	var wg sync.WaitGroup
 
-	server, err := net.Listen("tcp", "172.17.0.3:8080")
+	server, err := net.Listen("tcp", "172.17.0.4:8080")
 	if err != nil {
 		log.Fatal(err)
 	}
